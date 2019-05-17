@@ -1,0 +1,140 @@
+.outer1{
+  position: relative;
+  background-color: black;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.outer1:hover{
+  position: relative;
+  background-color: magenta;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.inner1{
+  position: absolute;
+  background-color: white;
+  width: 5vw;
+  height:15vw;
+  border-radius: 2.5vw;
+  margin: 5vw;
+  float: left;
+}
+
+.inner1:hover{
+  background-color: blue;
+  animation-name: innercolor;
+ animation-duration: 2s;
+}
+
+
+@keyframes innercolor {
+
+}
+
+.inner1:hover{
+
+  animation-name: outersheight;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;  animation-direction: alternate;
+}
+
+@keyframes outersheight {
+  from {height: 25vh;}
+  to {height: 80vh;}
+  from {background-color: blue;}
+  to {background-color: magenta;}
+}
+
+
+.outer2{
+  position: relative;
+  background-color: black;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.outer2:hover{
+  position: relative;
+  background-color: red;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+
+
+
+
+.outer3{
+  position: relative;
+  background-color: black;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.outer3:hover{
+  position: relative;
+  background-color: green;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+
+.outer4{
+  position: relative;
+  background-color: black;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.outer4:hover{
+  position: relative;
+  background-color: pink;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.outer5{
+  position: relative;
+  background-color: black;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
+
+.outer5:hover{
+  position: relative;
+  background-color: purple;
+  width: 15vw;
+  height:25vw;
+  border-radius: 7.5vw;
+  margin: 1vw;
+  float: left;
+}
